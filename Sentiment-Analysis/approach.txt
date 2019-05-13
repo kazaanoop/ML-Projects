@@ -1,0 +1,10 @@
+88.48 - 75 in Leader board
+1.Text pre-processing
+2.TF-IDF Features
+3.Logistic reg
+
+87.63 - 117 in Leader board
+
+1.Text pre-processing - Removed Stop words - Removed most common words both in Positive and negative tweets.
+2.TF-IDF Features
+3.Logistic reg

@@ -1,0 +1,19 @@
+Concepts used in this problem
+------------------------------
+1.bar plot
+2.filling missing values with mode.
+3.binning of age column
+4.Boxcox transformation(log transformation)
+5.Lable encoding
+6.SMOTE for over sampling data -> as data is imbalanced.
+7.PCA on input.
+
+
+
+trials
+------
+SMOTE + DT -> Over fit (98% and F1- 0.34)
+only DT -> 0.41
+ensemble(random forest + ada boost) + vote-> 0.36
+Lightgbm
+ 

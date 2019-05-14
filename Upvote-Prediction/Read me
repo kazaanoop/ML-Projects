@@ -1,1 +1,13 @@
+Problem Statement:
+An online question and answer platform has hired you as a data scientist to identify the best question authors on the platform. This identification will bring more insight into increasing the user engagement. Given the tag of the question, number of views received, number of answers, username and reputation of the question author, the problem requires you to predict the upvote count that the question will receive.
 
+Ranking: 85th out of 450
+
+Approach:
+Outliers removal
+Feature extraction - binning,label encoded, Polynomial features,Standard scalling
+Model : Polynomial regression - Degree 3
+
+Approach which didnt work:
+Model : Lasso,Ridge,LassoLars,Enet,Kernel Ridge
+Features: Log transformation,Boxcox transformation
